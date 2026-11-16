@@ -11,9 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          repository: 'next-theme/hexo-theme-next'
-          ref: ''
-          show-progress: ''
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
       - name: Use Node.js 22
